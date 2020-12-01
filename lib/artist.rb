@@ -30,5 +30,5 @@ class Artist
     end
     count
   end
-  
+
 end
