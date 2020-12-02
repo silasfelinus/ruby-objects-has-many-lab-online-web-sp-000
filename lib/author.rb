@@ -33,4 +33,8 @@ class Author
       count
     end
 
+    def author
+      self.name
+    end
+
   end
