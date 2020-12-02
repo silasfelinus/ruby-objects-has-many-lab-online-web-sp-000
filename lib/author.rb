@@ -26,7 +26,7 @@ class Author
     def self.post_count
       count = 0
       @@authors.each do |author|
-        author.post.each do |post|
+        author.posts.each do |post|
           count += 1
         end
       end
